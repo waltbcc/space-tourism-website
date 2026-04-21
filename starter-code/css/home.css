@@ -1,0 +1,79 @@
+body {
+    background-image: url("../assets/home/background-home-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.4rem;
+}
+
+main {
+    padding: 2.4rem;
+    flex: 1;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+main section {
+    display: grid;
+    grid-template-rows: auto;
+    height: 100%;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.4rem;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.content strong {
+    font-family: "Bellefair", sans-serif;
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.explore {
+    width: 14.4rem;
+    height: 14.4rem;
+    border-radius: 100%;
+    background-color: var(--white);
+    color: var(--blue-900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-family: "Bellefair", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+}
