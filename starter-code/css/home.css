@@ -98,8 +98,8 @@ main section {
 
 .nav-menu {
     position: relative;
-    left: 40%;
-    width: 60%;
+    left: 35%;
+    width: 65%;
     height: 100%;
     background-color: rgba(11, 13, 23, 0.15);
     backdrop-filter: blur(80px);
