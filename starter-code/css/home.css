@@ -16,7 +16,6 @@ header {
 }
 
 header .icon-close {
-    position: relative;
     z-index: 9999999;
 }
 

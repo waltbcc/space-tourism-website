@@ -15,15 +15,15 @@
             <img src="./assets/shared/logo.svg" alt="logo" />
         </button>
 
-        <button id="btn-icon-hamburger">
+        <button id="btn-icon-hamburger" onclick="activeMobileMenu()">
             <img src="./assets/shared/icon-hamburger.svg"/>
         </button>
-        <button class="icon-close">
+        <button id="btn-icon-close" class="icon-close" onclick="desactiveMobileMenu()">
             <img src="./assets/shared/icon-close.svg" />
         </button>
     
     </header>
-    <div class="mobile-menu active">
+    <div id="mobile-menu-id" class="mobile-menu">
         <nav class="nav-menu"> 
             <ul>
                 <li class="active">
@@ -56,6 +56,6 @@
             </div>
         </section>
     </main>
-
+    <script src="index.js"></script>
 </body>
 </html>
